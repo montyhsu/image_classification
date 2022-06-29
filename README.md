@@ -173,7 +173,7 @@ For more information about resnet-18, here is the link: https://www.mathworks.co
 
 | Item                      | Value            |
 |---------------------------|------------------|
-| Pretrained                | False            |
+| Pretrained                | True             |
 | Epoch                     | 30               |
 | Learning Rate             | le-4             |
 | Semi-Supervised threshold | 0.9              |
