@@ -32,14 +32,19 @@ We took two improvement on the advanced model.
 (1) We implemented augmentation to help us generate more data in training and validation dataset. 
 
   ● transforms.RandomResizedCrop(size=256, scale=(0.8, 1.0))
+  
   ● transforms.Resize(256)
+  
   ● transforms.RandomRotation(degrees=15)
+  
   ● transforms.CenterCrop(size=224)
+  
   ● transforms.RandomResizedCrop(size=256, scale=(0.8, 1.0))
+  
 
 (2) We utilize resnet-18 as our CNN training model 
 
-
+https://www.mathworks.com/help/deeplearning/ref/resnet18.html
 
 ## Advanced Model Exeperiement with Semi-Supervised
 
