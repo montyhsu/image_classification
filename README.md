@@ -60,7 +60,9 @@ For more information about resnet-18, here is the link: https://www.mathworks.co
 | Loss Function | CrossEntropyLoss |
 | Optimizer | Adam |
 | Weight Decay | le-5 |
+| ------- | --- |
 | Scheduler | ExponentialLR |
+| ------- | --- |
 | Gamma | 0.9 |
 | ------- | --- |
 
