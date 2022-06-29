@@ -55,19 +55,19 @@ For more information about resnet-18, here is the link: https://www.mathworks.co
 (1) 
 
 | Epoch | 30 |
-| :-----: | :-: | :-: |
+| :-----: | :-: |
 | Learning Rate | le-4 |
-| :-----: | :-: | :-: |
+| :-----: | :-: |
 | Semi-Supervised threshold | N/A |
-| :-----: | :-: | :-: |
+| :-----: | :-: |
 | Loss Function | CrossEntropyLoss |
-| :-----: | :-: | :-: |
+| :-----: | :-: |
 | Optimizer | Adam |
-| :-----: | :-: | :-: |
+| :-----: | :-: |
 | Weight Decay | le-5 |
-| :-----: | :-: | :-: |
+| :-----: | :-: |
 | Scheduler | ExponentialLR |
-| :-----: | :-: | :-: |
+| :-----: | :-: |
 | Gamma | 0.9 |
 
 
