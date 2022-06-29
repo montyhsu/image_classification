@@ -58,6 +58,7 @@ For more information about resnet-18, here is the link: https://www.mathworks.co
 
 | Item                      | Value            |
 |---------------------------|------------------|
+| Pretrained                | False            |
 | Epoch                     | 30               |
 | Learning Rate             | le-4             |
 | Semi-Supervised threshold | N/A              |
@@ -82,9 +83,10 @@ For more information about resnet-18, here is the link: https://www.mathworks.co
 
 | Item                      | Value            |
 |---------------------------|------------------|
+| Pretrained                | False            |
 | Epoch                     | 30               |
 | Learning Rate             | le-4             |
-| Semi-Supervised threshold | 0.6             |
+| Semi-Supervised threshold | 0.6              |
 | Loss Function             | CrossEntropyLoss |
 | Optimizer                 | Adam             |
 | Weight Decay              | le-5             |
@@ -103,9 +105,10 @@ For more information about resnet-18, here is the link: https://www.mathworks.co
 
 | Item                      | Value            |
 |---------------------------|------------------|
+| Pretrained                | False            |
 | Epoch                     | 30               |
 | Learning Rate             | le-4             |
-| Semi-Supervised threshold | N/A              |
+| Semi-Supervised threshold | 0.9              |
 | Loss Function             | CrossEntropyLoss |
 | Optimizer                 | Adam             |
 | Weight Decay              | le-5             |
