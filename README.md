@@ -49,9 +49,18 @@ ResNet-18 is a convolutional neural network that is 18 layers deep. The pretrain
 For more information about resnet-18, here is the link: https://www.mathworks.com/help/deeplearning/ref/resnet18.html
 
 
+n_epochs | #1 
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+pseudo_threshold  | 301
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+lr| 301
 
 
 ## Advanced Model Exeperiement with Semi-Supervised
+
+
+
+
 
 ![image](https://user-images.githubusercontent.com/86508922/176341831-d6df756d-4498-4ab7-8ed7-4e9ed0168caa.png)
 
