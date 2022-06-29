@@ -13,11 +13,11 @@ In this project, we would like to utilize CNN to build a food classifcation mode
 
 The dataset we use is a subset of Food-11 image dataset(https://www.kaggle.com/trolukovich/food11-image-dataset) from Kaggle.
 
-  ● Training set: 280 * 11 labeled images + 6786 unlabeled images
+    ● Training set: 280 * 11 labeled images + 6786 unlabeled images
 
-  ● Validation set: 60 * 11 labeled images
+    ● Validation set: 60 * 11 labeled images
 
-  ● Testing set: 3347 images
+    ● Testing set: 3347 images
 
 
 
@@ -31,20 +31,25 @@ We took two improvement on the advanced model.
 
 (1) We implemented augmentation to help us generate more data in training and validation dataset. 
 
-  ● transforms.RandomResizedCrop(size=256, scale=(0.8, 1.0))
+    ● transforms.RandomResizedCrop(size=256, scale=(0.8, 1.0))
   
-  ● transforms.Resize(256)
+    ● transforms.Resize(256)
   
-  ● transforms.RandomRotation(degrees=15)
+    ● transforms.RandomRotation(degrees=15)
   
-  ● transforms.CenterCrop(size=224)
+    ● transforms.CenterCrop(size=224)
   
-  ● transforms.RandomResizedCrop(size=256, scale=(0.8, 1.0))
+    ● transforms.RandomResizedCrop(size=256, scale=(0.8, 1.0))
   
 
-(2) We utilize resnet-18 as our CNN training model 
+(2) We replaced our basic CNN model with resnet-18
 
-https://www.mathworks.com/help/deeplearning/ref/resnet18.html
+ResNet-18 is a convolutional neural network that is 18 layers deep. The pretrained network can classify images into 1000 object categories, such as keyboard, mouse, pencil, and many animals. In our advanced model, we chose not to use pretrained resnet-18 first and would like to train it with our dataset.
+
+For more information about resnet-18, here is the link: https://www.mathworks.com/help/deeplearning/ref/resnet18.html
+
+
+
 
 ## Advanced Model Exeperiement with Semi-Supervised
 
