@@ -52,8 +52,6 @@ For more information about resnet-18, here is the link: https://www.mathworks.co
 
 ## Advanced Model Exeperiement with Semi-Supervised
 
-### Conclusion: 
-
 (1) Train our advanced model with hyperparameter below and no Semi-Supervised.
 
 | Item                      | Value            |
@@ -126,9 +124,69 @@ For more information about resnet-18, here is the link: https://www.mathworks.co
 ## Pretrained Model Exeperiement with Semi-Supervised
 
 
+(1) Train our advanced model with hyperparameter below and no Semi-Supervised.
 
-![image](https://user-images.githubusercontent.com/86508922/176346348-ead3928f-514f-4af0-a5ad-1d10593b4f17.png)
+| Item                      | Value            |
+|---------------------------|------------------|
+| Pretrained                | True             |
+| Epoch                     | 30               |
+| Learning Rate             | le-4             |
+| Semi-Supervised threshold | N/A              |
+| Loss Function             | CrossEntropyLoss |
+| Optimizer                 | Adam             |
+| Weight Decay              | le-5             |
+| Scheduler                 | ExponentialLR    |
+| Gamma                     | 0.9              |
 
-![image](https://user-images.githubusercontent.com/86508922/176346361-06cf9734-7447-49f1-88e3-2359f0d30113.png)
 
-![image](https://user-images.githubusercontent.com/86508922/176346376-ee7f0bb8-16f9-4cdd-a086-8e001e9cf85b.png)
+
+![image](https://user-images.githubusercontent.com/86508922/176347436-5aa38c8b-d03d-4f7e-a073-69ee5bce45eb.png)
+
+![image](https://user-images.githubusercontent.com/86508922/176347448-a01d1d33-ff4a-45ee-b2ff-ee83502f00b9.png)
+
+![image](https://user-images.githubusercontent.com/86508922/176347456-a4244e7a-0fac-4103-bf15-e7ffa244ecad.png)
+
+
+(2) Trained our advanced model with hyperparameter below and implmented Semi-Supervised with threshold as 0.6.
+
+
+| Item                      | Value            |
+|---------------------------|------------------|
+| Pretrained                | True             |
+| Epoch                     | 30               |
+| Learning Rate             | le-4             |
+| Semi-Supervised threshold | 0.6              |
+| Loss Function             | CrossEntropyLoss |
+| Optimizer                 | Adam             |
+| Weight Decay              | le-5             |
+| Scheduler                 | ExponentialLR    |
+| Gamma                     | 0.9              |
+
+![image](https://user-images.githubusercontent.com/86508922/176347487-30f8e32a-c585-43b6-a5c4-869f2bb85ada.png)
+
+![image](https://user-images.githubusercontent.com/86508922/176347503-d125aeee-a4a2-4504-b0d6-6b0494a1f40c.png)
+
+![image](https://user-images.githubusercontent.com/86508922/176347513-2c007d80-3de1-4866-8faf-ebc686110b25.png)
+
+
+(3) Trained our advanced model with hyperparameter below and implmented Semi-Supervised with threshold as 0.9.
+
+| Item                      | Value            |
+|---------------------------|------------------|
+| Pretrained                | False            |
+| Epoch                     | 30               |
+| Learning Rate             | le-4             |
+| Semi-Supervised threshold | 0.9              |
+| Loss Function             | CrossEntropyLoss |
+| Optimizer                 | Adam             |
+| Weight Decay              | le-5             |
+| Scheduler                 | ExponentialLR    |
+| Gamma                     | 0.9              |
+
+![image](https://user-images.githubusercontent.com/86508922/176347538-0e72dd1d-6a56-4654-9242-87669eebf3c8.png)
+
+![image](https://user-images.githubusercontent.com/86508922/176347542-63401504-7bbe-47cf-ab4c-f3dd1092e181.png)
+
+![image](https://user-images.githubusercontent.com/86508922/176347553-543bf0f9-92c7-427c-b6c2-9b5275ee14d5.png)
+
+## Conclusion
