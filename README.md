@@ -55,7 +55,6 @@ For more information about resnet-18, here is the link: https://www.mathworks.co
 (1) 
 
 | Epoch | 30 |
-| :-----: | :-: |
 | Learning Rate | le-4 |
 | :-----: | :-: |
 | Semi-Supervised threshold | N/A |
