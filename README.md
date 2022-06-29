@@ -121,7 +121,7 @@ For more information about resnet-18, here is the link: https://www.mathworks.co
 
 
 
-## Pretrained Model Exeperiement with Semi-Supervised
+## Resnet-18 Pretrained Model Exeperiement with Semi-Supervised
 
 
 (1) Train our advanced model with hyperparameter below and no Semi-Supervised.
