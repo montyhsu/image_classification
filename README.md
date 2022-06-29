@@ -65,9 +65,65 @@ For more information about resnet-18, here is the link: https://www.mathworks.co
 | Scheduler                 | ExponentialLR    |
 | Gamma                     | 0.9              |
 
+
+
 ![image](https://user-images.githubusercontent.com/86508922/176345718-0d59039e-dfd5-46f3-bee6-8009bed63b6e.png)
+
 ![image](https://user-images.githubusercontent.com/86508922/176345724-85039ecc-4759-4a03-9832-2068a15c868d.png)
+
 ![image](https://user-images.githubusercontent.com/86508922/176345735-ec0f44d8-60eb-4098-b9bb-95d0b252d81b.png)
 
 
+
+(2) Trained our advanced model with hyperparameter below and implmented Semi-Supervised with threshold as 0.6.
+
+
+| Item                      | Value            |
+|---------------------------|------------------|
+| Epoch                     | 30               |
+| Learning Rate             | le-4             |
+| Semi-Supervised threshold | 0.6             |
+| Loss Function             | CrossEntropyLoss |
+| Optimizer                 | Adam             |
+| Weight Decay              | le-5             |
+| Scheduler                 | ExponentialLR    |
+| Gamma                     | 0.9              |
+
+![image](https://user-images.githubusercontent.com/86508922/176346478-e1e666d8-da78-41ab-b015-59844f9520d9.png)
+
+![image](https://user-images.githubusercontent.com/86508922/176346488-0e47f62d-ebb9-4546-a432-46fe978a26ac.png)
+
+![image](https://user-images.githubusercontent.com/86508922/176346493-3537e842-a7ba-4d2d-a2b8-1f2a90955cd0.png)
+
+
+
+(3) Trained our advanced model with hyperparameter below and implmented Semi-Supervised with threshold as 0.9.
+
+| Item                      | Value            |
+|---------------------------|------------------|
+| Epoch                     | 30               |
+| Learning Rate             | le-4             |
+| Semi-Supervised threshold | N/A              |
+| Loss Function             | CrossEntropyLoss |
+| Optimizer                 | Adam             |
+| Weight Decay              | le-5             |
+| Scheduler                 | ExponentialLR    |
+| Gamma                     | 0.9              |
+
+![image](https://user-images.githubusercontent.com/86508922/176346518-b79ee665-e968-4527-8d88-7add3c3a2c08.png)
+
+![image](https://user-images.githubusercontent.com/86508922/176346530-9eb7394b-b89c-4131-b07d-6f2b9b2a7993.png)
+
+![image](https://user-images.githubusercontent.com/86508922/176346540-1802fa40-8343-43a5-abfb-59571598c6fd.png)
+
+
+
 ## Pretrained Model Exeperiement with Semi-Supervised
+
+
+
+![image](https://user-images.githubusercontent.com/86508922/176346348-ead3928f-514f-4af0-a5ad-1d10593b4f17.png)
+
+![image](https://user-images.githubusercontent.com/86508922/176346361-06cf9734-7447-49f1-88e3-2359f0d30113.png)
+
+![image](https://user-images.githubusercontent.com/86508922/176346376-ee7f0bb8-16f9-4cdd-a086-8e001e9cf85b.png)
