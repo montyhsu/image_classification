@@ -52,6 +52,8 @@ For more information about resnet-18, here is the link: https://www.mathworks.co
 
 ## Advanced Model Exeperiement with Semi-Supervised
 
+### Conclusion: 
+
 (1) Train our advanced model with hyperparameter below and no Semi-Supervised.
 
 | Item                      | Value            |
