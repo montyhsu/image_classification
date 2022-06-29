@@ -14,8 +14,11 @@ In this project, we would like to utilize CNN to build a food classifcation mode
 The dataset we use is a subset of Food-11 image dataset(https://www.kaggle.com/trolukovich/food11-image-dataset) from Kaggle.
 
 ● Training set: 280 * 11 labeled images + 6786 unlabeled images
+
 ● Validation set: 60 * 11 labeled images
+
 ● Testing set: 3347 images
+
 
 
 ## Basic Model Development
