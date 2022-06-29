@@ -48,14 +48,27 @@ ResNet-18 is a convolutional neural network that is 18 layers deep. The pretrain
 
 For more information about resnet-18, here is the link: https://www.mathworks.com/help/deeplearning/ref/resnet18.html
 
-| Attempt | #1  | #2  |
-| :-----: | :-: | :-: |
-| Seconds | 301 | 283 |
 
 
 ## Advanced Model Exeperiement with Semi-Supervised
 
+(1) 
 
+| Epoch | 30 |
+| :-----: | :-: | :-: |
+| Learning Rate | le-4 |
+| :-----: | :-: | :-: |
+| Semi-Supervised threshold | N/A |
+| :-----: | :-: | :-: |
+| Loss Function | CrossEntropyLoss |
+| :-----: | :-: | :-: |
+| Optimizer | Adam |
+| :-----: | :-: | :-: |
+| Weight Decay | le-5 |
+| :-----: | :-: | :-: |
+| Scheduler | ExponentialLR |
+| :-----: | :-: | :-: |
+| Gamma | 0.9 |
 
 
 
