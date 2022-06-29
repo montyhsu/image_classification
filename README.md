@@ -52,22 +52,22 @@ For more information about resnet-18, here is the link: https://www.mathworks.co
 
 ## Advanced Model Exeperiement with Semi-Supervised
 
-(1) 
+(1) Train our advanced model with hyperparameter below and no Semi-Supervised.
 
-| Epoch | 30 |
-| Learning Rate | le-4 |
-| Semi-Supervised threshold | N/A |
-| Loss Function | CrossEntropyLoss |
-| Optimizer | Adam |
-| Weight Decay | le-5 |
-| ------- | --- |
-| Scheduler | ExponentialLR |
-| ------- | --- |
-| Gamma | 0.9 |
-| ------- | --- |
+| Item                      | Value            |
+|---------------------------|------------------|
+| Epoch                     | 30               |
+| Learning Rate             | le-4             |
+| Semi-Supervised threshold | N/A              |
+| Loss Function             | CrossEntropyLoss |
+| Optimizer                 | Adam             |
+| Weight Decay              | le-5             |
+| Scheduler                 | ExponentialLR    |
+| Gamma                     | 0.9              |
 
-
-![image](https://user-images.githubusercontent.com/86508922/176341831-d6df756d-4498-4ab7-8ed7-4e9ed0168caa.png)
+![image](https://user-images.githubusercontent.com/86508922/176345718-0d59039e-dfd5-46f3-bee6-8009bed63b6e.png)
+![image](https://user-images.githubusercontent.com/86508922/176345724-85039ecc-4759-4a03-9832-2068a15c868d.png)
+![image](https://user-images.githubusercontent.com/86508922/176345735-ec0f44d8-60eb-4098-b9bb-95d0b252d81b.png)
 
 
 ## Pretrained Model Exeperiement with Semi-Supervised
