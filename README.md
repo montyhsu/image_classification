@@ -22,8 +22,50 @@ The dataset we use is a subset of Food-11 image dataset(https://www.kaggle.com/t
 
 
 ## Basic Model Development
+In the begining, we tried a basic CNN model. The model has three layers: a convolutional layer, a pooling layer, and a fully connected layer. 
+For each image, it goes through the 3 layers, and we get the output predictions after the fully connected layer.
+| Item                      | Value            |
+|---------------------------|------------------|
+| Pretrained                | False            |
+| Epoch                     | 30               |
+| Learning Rate             | 3e-4             |
+| Semi-Supervised threshold | N/A              |
+| Loss Function             | CrossEntropyLoss |
+| Optimizer                 | Adam             |
+| Weight Decay              | le-5             |
+
+![download](https://user-images.githubusercontent.com/23225284/176582320-1d7ed849-f9fa-4e15-86bc-7dd756e54b72.png)
 
 ## Basic Model Exeperiement with Semi-Supervised
+We trained our based model with Semi-Supervised learning and threshold as 0.6.
+
+| Item                      | Value            |
+|---------------------------|------------------|
+| Pretrained                | False            |
+| Epoch                     | 30               |
+| Learning Rate             | 3e-4             |
+| Semi-Supervised threshold | 0.6              |
+| Loss Function             | CrossEntropyLoss |
+| Optimizer                 | Adam             |
+| Weight Decay              | le-5             |
+
+![image_0 6](https://user-images.githubusercontent.com/23225284/176582698-cb1e9d64-9832-4ec5-a9d1-518aa044ddac.png)
+
+We also trained our based model with Semi-Supervised learning and threshold as 0.9.
+
+| Item                      | Value            |
+|---------------------------|------------------|
+| Pretrained                | False            |
+| Epoch                     | 30               |
+| Learning Rate             | 3e-4             |
+| Semi-Supervised threshold | 0.9              |
+| Loss Function             | CrossEntropyLoss |
+| Optimizer                 | Adam             |
+| Weight Decay              | le-5             |
+
+![image_0 9](https://user-images.githubusercontent.com/23225284/176582757-ebf92403-f30f-4158-b43a-5e2e518b9cfa.png)
+
+The based model has a serious overfitting problem. Besides, with semi-supervised learning, the performance seems even worse.
 
 ## Advanced Model Development
 
