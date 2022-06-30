@@ -244,4 +244,4 @@ For more information about resnet-18, here is the link: https://www.mathworks.co
 
 1.The project is a extenstion practice from the course https://youtu.be/OP5HcXJg2Aw
 
-2.We refer the way to build our semi-filter from https://www.heywhale.com/mw/project/61133875aca2460017a464a5
+2.We refer the way to build our semi-supervised filter from https://www.heywhale.com/mw/project/61133875aca2460017a464a5
