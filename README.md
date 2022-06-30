@@ -232,3 +232,11 @@ For more information about resnet-18, here is the link: https://www.mathworks.co
 ![image](https://user-images.githubusercontent.com/86508922/176347553-543bf0f9-92c7-427c-b6c2-9b5275ee14d5.png)
 
 ## Conclusion
+1. Semi - Supervised aims to improve the model performance when we don’t have enough training data, but we didn’t observe its power in the three experiments we made.
+
+2. Building a basic model is important. It helps us recognize vanilla CNN result in serious over-fitting, and we need a new deep learning structure. 
+
+3. It is essential to stand upon the shoulders of giants, so we learn from other’s experience to apply Resnet-18 as our advanced model. (Pretrained is the best!!!)
+
+4. If we were to continue to work on this project, we think we could tune the batch size, learning rate, dropout rate, etc. 
+
